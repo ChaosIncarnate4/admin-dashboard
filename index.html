@@ -10,7 +10,6 @@
     <div id="sidebar">
         <li>
             <p id="dashboard"><img src="./icons/Dashboard.svg" id="dashboard-icon">Dashboard</p>
-            <!-- <ul>&nbsp</ul> -->
             <ul><a href=""><img src="./icons/Home.svg" class="icon">Home</a></ul>
             <ul><a href=""><img src="./icons/Profile.svg" class="icon">Profile</a></ul>
             <ul><a href=""><img src="./icons/Messages.svg" class="icon">Messages</a></ul>
@@ -24,10 +23,155 @@
         </li>
     </div>
     <div id="header">
-
+        <div id="top-row">
+            <div id="not-buttons">
+                <img src="./icons/Search.svg" class="icon" id="search-icon">
+                <input type="text"></input>
+            </div>
+            
+            <!-- <div class="spacer">&nbsp</div> -->
+            <div id="buttons">
+                <button id="notification-bell"><img src="./icons/Notifications.svg" class="icon" id="bell"></button>
+                <button><img src="Pic.jpg" class="profile-pic"></button>
+                <p id="name">Wilson Jeng</p>
+            </div>
+            
+        </div>
+        <div id="second-row">
+            <div id="not-buttons">
+                <img src="Pic.jpg" id="second-row-profile">
+                <div id="greeting">
+                    <p id="hello-there">Hi there,</p>
+                    <p id="hello-there-name">Wilson Jeng (@wilson)</p>
+                </div>
+            </div>
+            <div id="buttons">
+                <button class="second-row-header-button">New</button>
+                <button class="second-row-header-button">Upload</button>
+                <button class="second-row-header-button">Share</button>
+            </div>
+        </div>
     </div>
     <div id="main">
-
+        <div id="your-projects">
+            <p class="labels">Your Projects</p>
+            <div id="cards">
+                <div class="card">
+                    <div class="gold-bar"></div>
+                    <div class="card-contents">
+                        <p class="card-title">Global Hero</p>
+                        <p class="card-description">My first 2D platformer! Travel to exotic locations and fight mutant animals to shut down Global Corp's operations!</p>
+                    </div>
+                    <div class="card-icons">
+                        <button><img src="icons/Connection.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Eye-Plus.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Star-Plus.svg" class="icon" id="search-icon"></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="gold-bar"></div>
+                    <div class="card-contents">
+                        <p class="card-title">Global Hero 2: Unflattened</p>
+                        <p class="card-description">My first 3D platformer! The Game Master has unleashed havoc upon the world! Play his twisted arcade and beat him!</p>
+                    </div>
+                    <div class="card-icons">
+                        <button><img src="icons/Connection.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Eye-Plus.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Star-Plus.svg" class="icon" id="search-icon"></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="gold-bar"></div>
+                    <div class="card-contents">
+                        <p class="card-title">Metros and Monsters</p>
+                        <p class="card-description">In this medieval-futuristic RPG, take on the cybernetic fantastical legions of the Central Kingdom to liberate its people!</p>
+                    </div>
+                    <div class="card-icons">
+                        <button><img src="icons/Connection.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Eye-Plus.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Star-Plus.svg" class="icon" id="search-icon"></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="gold-bar"></div>
+                    <div class="card-contents">
+                        <p class="card-title">The Spark</p>
+                        <p class="card-description">Go on the journey of an electrifying young hero as he saves the city of Neopolis and shines a light into the future .</p>
+                    </div>
+                    <div class="card-icons">
+                        <button><img src="icons/Connection.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Eye-Plus.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Star-Plus.svg" class="icon" id="search-icon"></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="gold-bar"></div>
+                    <div class="card-contents">
+                        <p class="card-title">Smiling Shadow</p>
+                        <p class="card-description">Take on the False Sun as you stealth your way through his cult, and have a little fun along the way!</p>
+                    </div>
+                    <div class="card-icons">
+                        <button><img src="icons/Connection.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Eye-Plus.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Star-Plus.svg" class="icon" id="search-icon"></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="gold-bar"></div>
+                    <div class="card-contents">
+                        <p class="card-title">All-Stars</p>
+                        <p class="card-description">The God of the Void is reawakening. Unite our heroes to bring stability to their cities before you take on a god.</p>
+                    </div>
+                    <div class="card-icons">
+                        <button><img src="icons/Connection.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Eye-Plus.svg" class="icon" id="search-icon"></button>
+                        <button><img src="icons/Star-Plus.svg" class="icon" id="search-icon"></button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="announcements">
+            <p class="labels">Announcements</p>
+            <div id="announcements-card">
+                <div class="announcement">
+                    <p class="announcement-title">Global Hero Released!</p>
+                    <p class="announcement-description">That's right, my first platformer is officially done! Go get it from Steam or Itch now!</p>
+                </div>
+                <div class="announcement">
+                    <p class="announcement-title">Global Hero 2 Released!</p>
+                    <p class="announcement-description">That's right, my first 3D platformer is officially done! Go get it from Steam or Itch now!</p>
+                </div>
+                <div class="announcement">
+                    <p class="announcement-title">Metros and Monsters Released!</p>
+                    <p class="announcement-description">Want a futuristic DnD experience? MnM is up your alley then!</p>
+                </div>
+            </div>
+        </div>
+        <div id="trending">
+            <p class="labels">Trending</p>
+            <div id="trending-card">
+                <div class="trending-profile">
+                    <img src="Pic.jpg" class="trending-profile-pic">
+                    <p class="trending-name">@Wilson</p>
+                    <p class="trending-description">Future Award-Winning Game Dev</p>
+                </div>
+                <div class="trending-profile">
+                    <img src="Pic.jpg" class="trending-profile-pic">
+                    <p class="trending-name">@Wilson</p>
+                    <p class="trending-description">Future Award-Winning Game Dev</p>
+                </div>
+                <div class="trending-profile">
+                    <img src="Pic.jpg" class="trending-profile-pic">
+                    <p class="trending-name">@Wilson</p>
+                    <p class="trending-description">Future Award-Winning Game Dev</p>
+                </div>
+                <div class="trending-profile">
+                    <img src="Pic.jpg" class="trending-profile-pic">
+                    <p class="trending-name">@Wilson</p>
+                    <p class="trending-description">Future Award-Winning Game Dev</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
